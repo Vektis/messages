@@ -5,10 +5,12 @@ package com.company;
  */
 public class message {
     public String number,text,timeReceived;
-    public message(String z,String x,String c){
+    public double realtime;
+    public message(String z,String x,String c,double r){
         number = z;
         text = x;
         timeReceived = c;
+        realtime = r;
     }
 
 
